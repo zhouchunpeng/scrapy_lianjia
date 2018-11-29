@@ -96,10 +96,10 @@ ITEM_PIPELINES = {
 IPPOOL = [
     {'ipaddr':'121.33.226.167:3128'}
 ]
-MYSQL_HOST = "127.0.0.1"
-MYSQL_DBNAME = "Realestate"
-MYSQL_USER = "zhouchunpeng"
-MYSQL_PASSWORD = "zhou135846chun."
+MYSQL_HOST = "*.0.0.1"
+MYSQL_DBNAME = "*"
+MYSQL_USER = "*"
+MYSQL_PASSWORD = "*"
 
 
 #SCHEDULER = "scrapy_redis.scheduler.Scheduler"
